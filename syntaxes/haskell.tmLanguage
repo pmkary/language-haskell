@@ -16,7 +16,25 @@
 			<key>match</key>
 			<string>\(|\)|\[|\]|\{|\}</string>
 			<key>name</key>
-			<string>other.punctuation.haskell</string>
+			<string>punctuation.haskell</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b_\b</string>
+			<key>name</key>
+			<string>punctuation.definition.entity.dummy.haskell</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>=</string>
+			<key>name</key>
+			<string>keyword.operator.assignment.haskell</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\$</string>
+			<key>name</key>
+			<string>keyword.operator.dollar-sign.haskell</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -59,7 +77,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.haskell</string>
+					<string>keyword.other.module.haskell</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -69,7 +87,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.haskell</string>
+					<string>keyword.other.where.haskell</string>
 				</dict>
 			</dict>
 			<key>name</key>
@@ -100,7 +118,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.haskell</string>
+					<string>keyword.other.class.haskell</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -110,7 +128,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.haskell</string>
+					<string>keyword.other.where.haskell</string>
 				</dict>
 			</dict>
 			<key>name</key>
@@ -138,7 +156,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.haskell</string>
+					<string>keyword.other.type.haskell</string>
 				</dict>
 				<key>2</key>
 				<dict>
@@ -160,7 +178,7 @@
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.haskell</string>
+					<string>keyword.operator.assignment.haskell</string>
 				</dict>
 			</dict>
 		</dict>
@@ -181,7 +199,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.haskell</string>
+					<string>keyword.other.type.haskell</string>
 				</dict>
 				<key>2</key>
 				<dict>
@@ -196,7 +214,7 @@
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.haskell</string>
+					<string>keyword.other.assignment.haskell</string>
 				</dict>
 				<key>4</key>
 				<dict>
@@ -218,7 +236,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.haskell</string>
+					<string>keyword.other.instance.haskell</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -228,7 +246,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.haskell</string>
+					<string>keyword.other.where.haskell</string>
 				</dict>
 			</dict>
 			<key>name</key>
@@ -249,7 +267,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.haskell</string>
+					<string>keyword.other.import.haskell</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -262,7 +280,7 @@
 					<key>match</key>
 					<string>(qualified|as|hiding)</string>
 					<key>name</key>
-					<string>keyword.other.haskell</string>
+					<string>keyword.other.casting.haskell</string>
 				</dict>
 				<dict>
 					<key>include</key>
@@ -282,7 +300,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.haskell</string>
+					<string>keyword.other.deriving.haskell</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -305,7 +323,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.haskell</string>
+					<string>keyword.other.deriving.haskell</string>
 				</dict>
 				<key>2</key>
 				<dict>
