@@ -13,6 +13,12 @@
 	<key>patterns</key>
 	<array>
 		<dict>
+			<key>match</key>
+			<string>\(|\)|\[|\]|\{|\}</string>
+			<key>name</key>
+			<string>other.punctuation.haskell</string>
+		</dict>
+		<dict>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
