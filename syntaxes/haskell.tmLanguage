@@ -32,6 +32,12 @@
 		</dict>
 		<dict>
 			<key>match</key>
+			<string>'.'</string>
+			<key>name</key>
+			<string>string.quoted.single.haskell</string>
+		</dict>
+		<dict>
+			<key>match</key>
 			<string>\$</string>
 			<key>name</key>
 			<string>keyword.operator.dollar-sign.haskell</string>
